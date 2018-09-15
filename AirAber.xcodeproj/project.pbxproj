@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04291FDE214B832400E81776 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04291FDC214B832400E81776 /* Interface.storyboard */; };
+		04291FE0214B832500E81776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04291FDF214B832500E81776 /* Assets.xcassets */; };
+		04291FE7214B832500E81776 /* MyFirstWatchApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04291FE6214B832500E81776 /* MyFirstWatchApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04291FEE214B832500E81776 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04291FED214B832500E81776 /* ExtensionDelegate.swift */; };
+		04291FF0214B832500E81776 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04291FEF214B832500E81776 /* NotificationController.swift */; };
+		04291FF2214B832600E81776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04291FF1214B832600E81776 /* Assets.xcassets */; };
+		04291FF7214B832600E81776 /* MyFirstWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04291FDA214B832400E81776 /* MyFirstWatchApp.app */; };
+		04292000214B83F400E81776 /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA27C1B724A7400B1E765 /* Flights.json */; };
+		04292001214B840A00E81776 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
+		04292003214B889C00E81776 /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04292002214B889C00E81776 /* FlightInterfaceController.swift */; };
+		04292005214B91D600E81776 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04292004214B91D600E81776 /* ScheduleInterfaceController.swift */; };
+		04292007214B943200E81776 /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04292006214B943200E81776 /* FlightRowController.swift */; };
+		04292009214B9CFA00E81776 /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04292008214B9CFA00E81776 /* CheckInInterfaceController.swift */; };
+		1800B8711FC1E26C00855EEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1800B8701FC1E26C00855EEC /* LaunchScreen.xib */; };
+		7B8FA23D1B72275A00B1E765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */; };
+		7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23E1B72275A00B1E765 /* ViewController.swift */; };
+		7B8FA2421B72275A00B1E765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA2401B72275A00B1E765 /* Main.storyboard */; };
+		7B8FA2441B72275A00B1E765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA2431B72275A00B1E765 /* Assets.xcassets */; };
+		7B8FA27D1B724A7400B1E765 /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA27C1B724A7400B1E765 /* Flights.json */; };
+		7B8FA2801B724A9900B1E765 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
+		7B8FA28C1B72893300B1E765 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA2891B72893300B1E765 /* QRCode.swift */; };
+		7B8FA28D1B72893300B1E765 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04291FE8214B832500E81776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8FA2311B72275A00B1E765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04291FE5214B832500E81776;
+			remoteInfo = "MyFirstWatchApp Extension";
+		};
+		04291FF5214B832600E81776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8FA2311B72275A00B1E765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04291FD9214B832400E81776;
+			remoteInfo = MyFirstWatchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04291FFD214B832600E81776 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04291FE7214B832500E81776 /* MyFirstWatchApp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8FA2721B72277000B1E765 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				04291FF7214B832600E81776 /* MyFirstWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04291FDA214B832400E81776 /* MyFirstWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04291FDD214B832400E81776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		04291FDF214B832500E81776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04291FE1214B832500E81776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04291FE6214B832500E81776 /* MyFirstWatchApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MyFirstWatchApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04291FED214B832500E81776 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		04291FEF214B832500E81776 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		04291FF1214B832600E81776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04291FF3214B832600E81776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04291FF4214B832600E81776 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		04292002214B889C00E81776 /* FlightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
+		04292004214B91D600E81776 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
+		04292006214B943200E81776 /* FlightRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
+		04292008214B9CFA00E81776 /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
+		1800B8701FC1E26C00855EEC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		40113A891F5A4F760089A5C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7B8FA2391B72275A00B1E765 /* AirAber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirAber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B8FA23E1B72275A00B1E765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B8FA2411B72275A00B1E765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B8FA2431B72275A00B1E765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B8FA2481B72275A00B1E765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8FA27C1B724A7400B1E765 /* Flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Flights.json; sourceTree = "<group>"; };
+		7B8FA27F1B724A9900B1E765 /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		7B8FA2891B72893300B1E765 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04291FE3214B832500E81776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8FA2361B72275A00B1E765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04291FDB214B832400E81776 /* MyFirstWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				04291FDC214B832400E81776 /* Interface.storyboard */,
+				04291FDF214B832500E81776 /* Assets.xcassets */,
+				04291FE1214B832500E81776 /* Info.plist */,
+			);
+			path = MyFirstWatchApp;
+			sourceTree = "<group>";
+		};
+		04291FEA214B832500E81776 /* MyFirstWatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04291FED214B832500E81776 /* ExtensionDelegate.swift */,
+				04291FEF214B832500E81776 /* NotificationController.swift */,
+				04291FF1214B832600E81776 /* Assets.xcassets */,
+				04291FF3214B832600E81776 /* Info.plist */,
+				04291FF4214B832600E81776 /* PushNotificationPayload.apns */,
+				04292002214B889C00E81776 /* FlightInterfaceController.swift */,
+				04292004214B91D600E81776 /* ScheduleInterfaceController.swift */,
+				04292006214B943200E81776 /* FlightRowController.swift */,
+				04292008214B9CFA00E81776 /* CheckInInterfaceController.swift */,
+			);
+			path = "MyFirstWatchApp Extension";
+			sourceTree = "<group>";
+		};
+		7B8FA2301B72275A00B1E765 = {
+			isa = PBXGroup;
+			children = (
+				40113A891F5A4F760089A5C1 /* README.md */,
+				7B8FA23B1B72275A00B1E765 /* AirAber */,
+				7B8FA27B1B724A7400B1E765 /* Shared */,
+				04291FDB214B832400E81776 /* MyFirstWatchApp */,
+				04291FEA214B832500E81776 /* MyFirstWatchApp Extension */,
+				7B8FA23A1B72275A00B1E765 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		7B8FA23A1B72275A00B1E765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA2391B72275A00B1E765 /* AirAber.app */,
+				04291FDA214B832400E81776 /* MyFirstWatchApp.app */,
+				04291FE6214B832500E81776 /* MyFirstWatchApp Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B8FA23B1B72275A00B1E765 /* AirAber */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA2861B72893300B1E765 /* Vendor */,
+				7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */,
+				7B8FA23E1B72275A00B1E765 /* ViewController.swift */,
+				7B8FA2401B72275A00B1E765 /* Main.storyboard */,
+				1800B8701FC1E26C00855EEC /* LaunchScreen.xib */,
+				7B8FA2431B72275A00B1E765 /* Assets.xcassets */,
+				7B8FA2481B72275A00B1E765 /* Info.plist */,
+			);
+			path = AirAber;
+			sourceTree = "<group>";
+		};
+		7B8FA27B1B724A7400B1E765 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA27C1B724A7400B1E765 /* Flights.json */,
+				7B8FA27F1B724A9900B1E765 /* Flight.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7B8FA2861B72893300B1E765 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA2871B72893300B1E765 /* QRCode */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		7B8FA2871B72893300B1E765 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA2891B72893300B1E765 /* QRCode.swift */,
+				7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04291FD9214B832400E81776 /* MyFirstWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04291FFE214B832600E81776 /* Build configuration list for PBXNativeTarget "MyFirstWatchApp" */;
+			buildPhases = (
+				04291FD8214B832400E81776 /* Resources */,
+				04291FFD214B832600E81776 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04291FE9214B832500E81776 /* PBXTargetDependency */,
+			);
+			name = MyFirstWatchApp;
+			productName = MyFirstWatchApp;
+			productReference = 04291FDA214B832400E81776 /* MyFirstWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		04291FE5214B832500E81776 /* MyFirstWatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04291FFC214B832600E81776 /* Build configuration list for PBXNativeTarget "MyFirstWatchApp Extension" */;
+			buildPhases = (
+				04291FE2214B832500E81776 /* Sources */,
+				04291FE3214B832500E81776 /* Frameworks */,
+				04291FE4214B832500E81776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyFirstWatchApp Extension";
+			productName = "MyFirstWatchApp Extension";
+			productReference = 04291FE6214B832500E81776 /* MyFirstWatchApp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		7B8FA2381B72275A00B1E765 /* AirAber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8FA24B1B72275A00B1E765 /* Build configuration list for PBXNativeTarget "AirAber" */;
+			buildPhases = (
+				7B8FA2351B72275A00B1E765 /* Sources */,
+				7B8FA2361B72275A00B1E765 /* Frameworks */,
+				7B8FA2371B72275A00B1E765 /* Resources */,
+				7B8FA2721B72277000B1E765 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04291FF6214B832600E81776 /* PBXTargetDependency */,
+			);
+			name = AirAber;
+			productName = AirAber;
+			productReference = 7B8FA2391B72275A00B1E765 /* AirAber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B8FA2311B72275A00B1E765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mic Pringle";
+				TargetAttributes = {
+					04291FD9214B832400E81776 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					04291FE5214B832500E81776 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					7B8FA2381B72275A00B1E765 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 7B8FA2341B72275A00B1E765 /* Build configuration list for PBXProject "AirAber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B8FA2301B72275A00B1E765;
+			productRefGroup = 7B8FA23A1B72275A00B1E765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B8FA2381B72275A00B1E765 /* AirAber */,
+				04291FD9214B832400E81776 /* MyFirstWatchApp */,
+				04291FE5214B832500E81776 /* MyFirstWatchApp Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04291FD8214B832400E81776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04291FE0214B832500E81776 /* Assets.xcassets in Resources */,
+				04291FDE214B832400E81776 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04291FE4214B832500E81776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04291FF2214B832600E81776 /* Assets.xcassets in Resources */,
+				04292000214B83F400E81776 /* Flights.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8FA2371B72275A00B1E765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1800B8711FC1E26C00855EEC /* LaunchScreen.xib in Resources */,
+				7B8FA27D1B724A7400B1E765 /* Flights.json in Resources */,
+				7B8FA2441B72275A00B1E765 /* Assets.xcassets in Resources */,
+				7B8FA2421B72275A00B1E765 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04291FE2214B832500E81776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04292001214B840A00E81776 /* Flight.swift in Sources */,
+				04292003214B889C00E81776 /* FlightInterfaceController.swift in Sources */,
+				04292009214B9CFA00E81776 /* CheckInInterfaceController.swift in Sources */,
+				04292007214B943200E81776 /* FlightRowController.swift in Sources */,
+				04292005214B91D600E81776 /* ScheduleInterfaceController.swift in Sources */,
+				04291FF0214B832500E81776 /* NotificationController.swift in Sources */,
+				04291FEE214B832500E81776 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8FA2351B72275A00B1E765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8FA2801B724A9900B1E765 /* Flight.swift in Sources */,
+				7B8FA28D1B72893300B1E765 /* UIImageViewExtension.swift in Sources */,
+				7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */,
+				7B8FA23D1B72275A00B1E765 /* AppDelegate.swift in Sources */,
+				7B8FA28C1B72893300B1E765 /* QRCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04291FE9214B832500E81776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04291FE5214B832500E81776 /* MyFirstWatchApp Extension */;
+			targetProxy = 04291FE8214B832500E81776 /* PBXContainerItemProxy */;
+		};
+		04291FF6214B832600E81776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04291FD9214B832400E81776 /* MyFirstWatchApp */;
+			targetProxy = 04291FF5214B832600E81776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04291FDC214B832400E81776 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04291FDD214B832400E81776 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		7B8FA2401B72275A00B1E765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B8FA2411B72275A00B1E765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04291FF8214B832600E81776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = MyFirstWatchApp_Extension;
+				INFOPLIST_FILE = MyFirstWatchApp/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		04291FF9214B832600E81776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = MyFirstWatchApp_Extension;
+				INFOPLIST_FILE = MyFirstWatchApp/Info.plist;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		04291FFA214B832600E81776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "MyFirstWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		04291FFB214B832600E81776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "MyFirstWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		7B8FA2491B72275A00B1E765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B8FA24A1B72275A00B1E765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B8FA24C1B72275A00B1E765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AirAber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7B8FA24D1B72275A00B1E765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AirAber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04291FFC214B832600E81776 /* Build configuration list for PBXNativeTarget "MyFirstWatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04291FFA214B832600E81776 /* Debug */,
+				04291FFB214B832600E81776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04291FFE214B832600E81776 /* Build configuration list for PBXNativeTarget "MyFirstWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04291FF8214B832600E81776 /* Debug */,
+				04291FF9214B832600E81776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8FA2341B72275A00B1E765 /* Build configuration list for PBXProject "AirAber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8FA2491B72275A00B1E765 /* Debug */,
+				7B8FA24A1B72275A00B1E765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8FA24B1B72275A00B1E765 /* Build configuration list for PBXNativeTarget "AirAber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8FA24C1B72275A00B1E765 /* Debug */,
+				7B8FA24D1B72275A00B1E765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B8FA2311B72275A00B1E765 /* Project object */;
+}
