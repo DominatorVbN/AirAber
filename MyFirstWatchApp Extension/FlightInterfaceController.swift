@@ -3,7 +3,7 @@
 //  MyFirstWatchApp Extension
 //
 //  Created by mac on 14/09/18.
-//  Copyright © 2018 Mic Pringle. All rights reserved.
+//  Copyright © 2018 Dominator. All rights reserved.
 //
 
 import WatchKit
